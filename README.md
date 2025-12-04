@@ -24,9 +24,20 @@ El sistema es capaz de razonar, planificar y ejecutar búsquedas sobre múltiple
 
 ## Ejecución del Proyecto
 
-Este proyecto está diseñado para ejecutarse en Google Colab.
+Este proyecto está diseñado para ejecutarse en Google Colab y descarga los datos automáticamente.
 
-1. Haz clic en el botón de abajo para abrir el cuaderno:
-   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maleruppen/Asistente-Virtual-RAG-Hibrido/blob/main/TP_NLP_FINAL.ipynb)
-2. Una vez abierto, asegúrate de subir los archivos de datos (`fuentes_de_informacion.zip`, etc.) al entorno de Colab o conectar tu Drive si es necesario.
-3. Ejecuta las celdas en orden (Entorno > Ejecutar todas).
+1. **Abrir el cuaderno:** Haz clic en el botón de abajo:
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](AQUÍ_VA_TU_ENLACE)
+
+2. **Configurar API Keys:** Antes de ejecutar, ve al ícono de la "Llave" 🔑 en la barra izquierda de Colab ("Secretos") y agrega tus claves con los nombres:
+   * `GOOGLE_KEY` (Para Gemini)
+   * `HF_TOKEN` (Para Hugging Face)
+   * *Recuerda habilitar el interruptor "Permiso de acceso al cuaderno" para cada una.*
+
+3. **Instalación y Descarga:** Ejecuta la **primera celda** de código. Esto instalará las librerías y descargará automáticamente los datasets necesarios.
+
+4. **⚠️ PASO CRÍTICO: REINICIAR ENTORNO**
+   Al finalizar la instalación de la celda 1, reinicia la sesión para actualizar las dependencias:
+   * Ve al menú superior: **Entorno de ejecución > Reiniciar sesión**.
+
+5. **Ejecución final:** Una vez reiniciado, ejecuta el resto de las celdas (**Entorno de ejecución > Ejecutar todas** o Ctrl+F9).
