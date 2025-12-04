@@ -21,3 +21,12 @@ El sistema es capaz de razonar, planificar y ejecutar búsquedas sobre múltiple
 * **Bases de Datos:** ChromaDB (Vectores), KūzuDB (Grafos), SQLite (Tabular)
 * **Embeddings:** HuggingFace (`intfloat/multilingual-e5-small`)
 * **Entorno:** Google Colab
+
+## Ejecución del Proyecto
+
+Este proyecto está diseñado para ejecutarse en Google Colab.
+
+1. Haz clic en el botón de abajo para abrir el cuaderno:
+   [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maleruppen/Asistente-Virtual-RAG-Hibrido/blob/main/TP_NLP_FINAL.ipynb)
+2. Una vez abierto, asegúrate de subir los archivos de datos (`fuentes_de_informacion.zip`, etc.) al entorno de Colab o conectar tu Drive si es necesario.
+3. Ejecuta las celdas en orden (Entorno > Ejecutar todas).
