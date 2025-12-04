@@ -27,7 +27,7 @@ El sistema es capaz de razonar, planificar y ejecutar búsquedas sobre múltiple
 Este proyecto está diseñado para ejecutarse en Google Colab y descarga los datos automáticamente.
 
 1. **Abrir el cuaderno:** Haz clic en el botón:
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TuUsuario/Asistente-Virtual-RAG-Hibrido/blob/main/TP_NLP_FINAL.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/maleruppen/Asistente-Virtual-RAG-Hibrido/blob/main/TP_NLP_FINAL.ipynb)
 
 2. **Configurar API Keys:** Antes de ejecutar, ve al ícono de la "Llave" 🔑 en la barra izquierda de Colab ("Secretos") y agrega tus claves con los nombres:
    * `GOOGLE_KEY` (Para Gemini)
